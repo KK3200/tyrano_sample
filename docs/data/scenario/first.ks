@@ -1,46 +1,58 @@
 *start
 
-[title name="走るか寝るかするメロス"]
+[title name="あなたの今日の運勢"]
 [hidemenubutton]
 [wait time=200]
 [freeimage layer="base"]
 
-「走るか寝るかするメロス」[l][r]
+「あなたの今日の運勢」[l][r]
 
-メロスは激怒した。[l][r]
+あなたの今日の仕事運、恋愛運を占います。[l][r]
 
-必ず、かの邪智暴虐の王を除かねばならぬと決意した。[l][r]
+あなたの今日の仕事運は[1][r]
 
-(中略)[l][r]
-
-ああ、何もかも、ばかばかしい。私は、醜い裏切り者だ。どうとも、勝手にするがよい。やんぬる哉。[l][r]
-メロスは...[l][r]
-
-[link target=*tag_sleep] →寝る [endlink][r]
-[link target=*tag_run] →走る [endlink][r]
+[link target=*tag_red1] →赤 [endlink][r]
+[link target=*tag_blue1] →青 [endlink][r]
 [s]
 
-*tag_sleep
-
+*tag_red1
 [cm]
 
-[bg storage=sleep.jpg time=500]
+赤を選んだあなたの仕事運は◎。[l][r]
+何事にもやる気が出そう。新しいことに挑戦してみて[1][r]
 
-メロスは死んだように深く眠った。[l][r]
-勇者は、ひどく赤面した。[r]
+あなたの今日の恋愛運は[1][r]
 
-【 BAD END 】[l][cm]
+[link target=*tag_red2] →赤 [endlink][r]
+[link target=*tag_blue2] →青 [endlink][r]
+[s]
 
+*tag_blue1
+[cm]
+
+青を選んだあなたの仕事運は△。[l][r]
+気が進まない仕事を押し付けられそう。とりかかる前に優先順位を確認してみて。[1][r]
+
+あなたの今日の恋愛運は[1][r]
+
+[link target=*tag_red2] →赤 [endlink][r]
+[link target=*tag_blue2] →青 [endlink][r]
+[s]
+
+*tag_red2
+[cm]
+
+赤を選んだあなたの恋愛運は△。[l][r]
+今日はチャンスが訪れなさそう。自分を磨く努力をして。[1][r]
+
+Have a good day![1][cm]
 [jump target=*start]
 
-*tag_run
-
-[bg storage=run.jpg time=500]
-
+*tag_blue2
 [cm]
-メロスは黒い風のように走った。[l][r]
-陽は、ゆらゆら地平線に没し、まさに最後の一片の残光も、消えようとした時、メロスは疾風の如く刑場に突入した。間に合った。[r]
 
-【 GOOD END 】[l][cm]
+青を選んだあなたの仕事運は◎。[l][r]
+今日はチャンスが多く訪れそう。積極的に行動してみて。[1][r]
 
+Have a good day![1][cm]
 [jump target=*start]
